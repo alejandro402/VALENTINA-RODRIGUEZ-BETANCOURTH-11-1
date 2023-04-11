@@ -1,0 +1,188 @@
+/* COLORES PALETA */
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+    background-color: #A68F7B;
+    color: aliceblue;
+}
+
+ul li a{
+    font-size: 24px;
+}
+
+.text-navbar{
+    font-size: 30px;
+    
+}
+
+
+
+
+
+
+.link-fichas{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.card-ficha{
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+.card-ficha:hover{
+    
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease;
+    transform: rotateZ(2deg);
+    color: #F299B1;
+    background-color: #99B4BF;
+}
+
+
+
+
+.card-hover{
+    border: 3px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+
+.border-color{
+    border:1px solid #ccc ;
+}
+
+.card-hover:hover{
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+.navbar-sombra{
+    box-shadow: 2px 2px 5px 0px #283040;
+
+}
+
+ul li a:hover{
+    transform: scale(1.08);
+    transition: 0.2s ease;
+}
+
+
+
+
+
+
+.bg-color1{
+    background-color: #D9B70D;
+    color: #000;
+}
+
+.bg-color2{
+    background-color: #BF8D30;
+}
+
+.bg-color2 a{
+    color: #000;
+}
+
+.bg-color3{
+    background-color: #253C59;
+    color: #fff;
+}
+
+.bg-color4{
+    background-color: #2D4B73;
+    color: #fff;
+}
+
+
+
+.bg-color5{
+    background-color: #99B4BF;
+    color: #fff;
+}
+
+.navbar-color{
+     background-color: rgb(43, 87, 87);
+}
+
+
+.texto-referencia{
+    font-size: 52px;
+    box-shadow: 2px 2px 50px 0px #ccc;
+    text-transform: uppercase;
+}
+
+
+
+.texto-card{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.titulo-card{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.card-libro:hover{
+    transform: scale(1.01);
+    transition: 0.2s ease;
+}
+
+
+.logo-hover:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+
+.footer{
+    font-size: 18px;
+}
+
+
+
+.texto-ficha{
+    background-color: #253C59;
+}
+
+
+
+.super-acordeon h2{ 
+    font-size: 32px;
+    background-color: #99B4BF;
+}
+
+
+.animacion-simple:hover{
+    transform: rotateZ(3deg);
+    transition: 0.2s ease;
+    transform: scale(1.05);
+}
